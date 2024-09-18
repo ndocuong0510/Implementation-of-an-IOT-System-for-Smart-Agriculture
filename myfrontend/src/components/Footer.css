@@ -1,0 +1,11 @@
+.footer {
+  background-color: #3788bb;
+  /*Mau nen
+  /* Màu xanh dương */
+  color: white;
+  /*Mau chu */
+  text-align: center;
+  /* Căn chỉnh văn bản vào giữa */
+  padding: 0.5px;
+  /* Khoảng cách giữa nội dung và viền của footer */
+}

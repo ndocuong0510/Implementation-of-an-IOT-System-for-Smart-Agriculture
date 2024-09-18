@@ -1,0 +1,90 @@
+/* HeroSection.css */
+.hero-section {
+  padding: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* Two equal columns */
+  /* grid-gap: 10px; */
+  /* Gap between the columns */
+}
+
+.sensor-data {
+  grid-column: 1;
+  /* Data table in the first column */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.embed-container {
+  grid-column: 2;
+  /* Map in the second column */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.embed-container iframe {
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  max-height: 400px;
+  border: none;
+}
+
+.chart-container {
+  grid-column: span 2;
+  /* Chart spans both columns */
+  max-width: 100%;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.hero-section h1 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #030916;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.hero-section table {
+  width: 100%;
+  max-width: 500px;
+  border-collapse: collapse;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.hero-section table,
+.hero-section th,
+.hero-section td {
+  border: 1px solid #dddddd;
+}
+
+.hero-section th,
+.hero-section td {
+  padding: 12px;
+  text-align: left;
+}
+
+.hero-section th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.hero-section tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.hero-section tr:hover {
+  background-color: #f1f1f1;
+}
+
+.hero-section td {
+  background-color: #fff;
+  text-align: left;
+}
